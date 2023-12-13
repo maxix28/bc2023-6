@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Інформація про пристрій</title>
+</head>
+<body>
+     ​​<script src="main.js"></script>
+    <form method="post" action="/Device/Add" enctype="multipart/form-data" >
+        <label for="deviceName">Ім'я пристрою:</label>
+        <input type="text" id="deviceName" name="deviceName">
+
+        <label for="description">Опис:</label>
+        <input type="text" id="description" name="description">
+
+        <label for="serialNumber">Серійний номер:</label>
+        <input type="text" id="serialNumber" name="serialNumber">
+
+        <label for="manufacturer">Виробник:</label>
+        <input type="text" id="manufacturer" name="manufacturer">
+
+        <label for="photo">Фото:</label>
+        <input type="file" id="photo" name="photo" accept="image/*">
+
+        <button >Зберегти</button>
+    </form>
+    ​ 
+
+
+</body>
+</html>
